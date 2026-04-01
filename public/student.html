@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard – Online Evaluation Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-blob blob1"></div>
+  <div class="bg-blob blob2"></div>
+
+  <header>
+    <div>
+      <h1 class="site-title-sm">Online Evaluation Tool</h1>
+      <span id="headerSub">Student Dashboard</span>
+    </div>
+    <button class="btn-logout" onclick="logout()">Logout</button>
+  </header>
+
+  <div class="breadcrumb" id="breadcrumb">Home</div>
+
+  <!-- Step 1: Subjects -->
+  <section id="secSubjects">
+    <h2>Your Subjects</h2>
+    <div class="card-grid" id="subjectGrid"></div>
+  </section>
+
+  <!-- Step 2: Assignments -->
+  <section id="secAssignments" class="hidden">
+    <h2 id="assignHeading">Assignments</h2>
+    <div class="card-grid" id="assignmentGrid"></div>
+  </section>
+
+  <!-- Step 3: Submit -->
+  <section id="secSubmit" class="hidden">
+    <h2 id="submitHeading">Submit Project</h2>
+    <div class="submit-card fade-in" id="submitCard"></div>
+  </section>
+
+  <script src="student.js"></script>
+</body>
+</html>

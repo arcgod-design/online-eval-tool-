@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <title>ex2 - HTML Tags Dashboard</title>
+</head>
+
+<body id="top"
+  style="font-family: sans-serif; width:100%; min-height:100vh; margin:0; padding:18px; background:#072227; color:#e6fbff; box-sizing:border-box;">
+
+  <div style="background:#064e52; border:1px solid #023437; padding:20px; border-radius:6px;">
+
+    <h1 style="border-bottom:2px solid #014343; padding-bottom:8px; margin:0 0 12px 0;">HTML Tags Dashboard - ex2</h1>
+
+    <!-- Headings examples -->
+    <h2 style="margin-top:10px;">Headings</h2>
+    <h1 style="color:#c5ffee; margin:6px 0;">Heading level 1</h1>
+    <h2 style="color:#d6fff7; margin:6px 0;">Heading level 2</h2>
+    <h3 style="color:#e6fbff; margin:6px 0;">Heading level 3</h3>
+    <h4 style="color:#eafefb; margin:6px 0;">Heading level 4</h4>
+    <h5 style="color:#f3fffb; margin:6px 0;">Heading level 5</h5>
+    <h6 style="color:#fbfffe; margin:6px 0;">Heading level 6</h6>
+
+    <h2 style="margin-top:12px;">1. Text Formatting (examples)</h2>
+    <p style="color:#e6fbff; margin:6px 0;"><strong>Bold</strong>, <em>Emphasized</em>, <u>Underlined</u>,
+      <s>Strikethrough</s>, <small>Small text</small>, <big>Big text</big>.</p>
+
+    <p style="color:#e6fbff; margin:6px 0;">Use <dfn title="Definition">definition</dfn> and inline code: <code
+        style="background:#022; color:#e6fbff; padding:2px 4px;">&lt;section&gt;</code>, keyboard key: <kbd
+        style="background:#022; color:#e6fbff; padding:2px 4px;">Ctrl</kbd>+<kbd
+        style="background:#022; color:#e6fbff; padding:2px 4px;">S</kbd>, variable: <var>x</var>, abbreviation: <abbr
+        title="Application Programming Interface">API</abbr>.</p>
+
+    <p style="color:#e6fbff; margin:6px 0;">Paragraph with <s>struck-through text</s> to demonstrate strikethrough in a
+      paragraph.</p>
+
+    <p style="color:#e6fbff; margin:6px 0;">Display code and preformatted text:</p>
+    <pre style="background:#013; border:1px solid #023; padding:8px; color:#e6fbff; overflow:auto;">&lt;pre&gt;Example preformatted text
+line 2:    indented content
+line 3:    code-like output
+  &lt;/pre&gt;
+  </pre>
+
+    <p style="color:#e6fbff; margin:6px 0;">Famous quote:
+    <blockquote style="font-style:italic; background:#0f554f; padding:8px; margin:8px 0; border-left:4px solid #024;">
+      “The best way to predict the future is to invent it.”</blockquote>
+    </p>
+
+    <p style="color:#e6fbff; margin:6px 0;">Subscript: H<sub>2</sub>O &nbsp; Superscript: a<sup>2</sup></p>
+
+    <p style="color:#e6fbff; margin:6px 0;">Inline styling examples inside a <span
+        style="background:#064e52; color:#9fe3d3; padding:2px 4px;">div-like</span> area: <b>bold</b>, <i>italic</i>,
+      <u>underlined</u>.</p>
+
+    <h2 style="margin-top:12px;">2. Frames</h2>
+    <p style="color:#e6fbff; margin:6px 0;">Link to the example page: <a href="ex1.html"
+        style="color:#9fe3d3; font-weight:bold;">Go to ex1.html</a></p>
+    <iframe src="ex1.html" title="ex1 preview"
+      style="width:100%; height:320px; border:2px solid #014; display:block; margin-bottom:8px;"></iframe>
+    <p style="color:#e6fbff; margin:6px 0;">If the preview above doesn't load, open the local page directly: <a
+        href="ex1.html" target="_blank" rel="noopener noreferrer" style="color:#9fe3d3; font-weight:bold;">Open
+        ex1.html</a></p>
+
+    <h2 style="margin-top:12px;">3. Basic Video and Audio</h2>
+    <p style="color:#e6fbff; margin:6px 0;"><strong>Audio Lecture:</strong></p>
+    <audio controls style="width:100%; margin-bottom:10px;">
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p style="color:#e6fbff; margin:6px 0;"><strong>Video Lessons (examples using &lt;video&gt;):</strong></p>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:8px;">
+      <iframe loading="lazy" title="video1 - YouTube"
+        src="https://www.youtube.com/embed/CLBHbFVh7yo?si=L_EhWubwLJ8K9eh9" style="width:100%; height:220px; border:0;"
+        allowfullscreen></iframe>
+      <iframe loading="lazy" title="video2 - YouTube"
+        src="https://www.youtube.com/embed/ygcrLwtIbUo?si=4btIl-jJvwIgRLh4" style="width:100%; height:220px; border:0;"
+        allowfullscreen></iframe>
+      <iframe loading="lazy" title="video3 - YouTube"
+        src="https://www.youtube.com/embed/3fxyIGJ93IA?si=ysEJq-zDQgtEp20Y" style="width:100%; height:220px; border:0;"
+        allowfullscreen></iframe>
+      <iframe loading="lazy" title="video4 - YouTube"
+        src="https://www.youtube.com/embed/qy41_Cy4xbc?si=qnGTpYkDFeep0Daz" style="width:100%; height:220px; border:0;"
+        allowfullscreen></iframe>
+    </div>
+
+    <p style="color:#e6fbff; margin:6px 0;">Complete video library: <a href="https://youtu.be/z116jFWdfQc"
+        target="_blank" rel="noopener noreferrer" style="color:#9fe3d3;">View All Lessons</a></p>
+
+    <h2 style="margin-top:12px;">4. Link and Bookmark Link</h2>
+    <p style="color:#e6fbff; margin:6px 0;">Bookmark link: <a href="#top"
+        style="color:#c5ffee; text-decoration:underline; font-weight:bold;">↑ Back to Top</a></p>
+  </div>
+
+</body>
+
+</html>
